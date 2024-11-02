@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Main Suite">
+    <test name="Trello API Homework">
+        <classes>
+            <class name="trello.api.exam.AuthenticationTest"/>
+            <class name="trello.api.exam.BoardTest"/>
+            <class name="trello.api.exam.ListTest"/>
+            <class name="trello.api.exam.CardTest"/>
+        </classes>
+    </test>
+</suite>
